@@ -45,4 +45,4 @@ final_project-0712205 created by GitHub Classroom
     
     垂心 dow=[-det([(xx(2)*xx(3)+yy(2)*yy(3)) yy(1) 1;(xx(3)*xx(1)+yy(3)*yy(1)) yy(2) 1;(xx(1)*xx(2)+yy(1)*yy(2)) yy(3) 1])./(2*tt) -det([xx(1) (xx(2)*xx(3)+yy(2)*yy(3)) 1;xx(2) (xx(3)*xx(1)+yy(3)*yy(1)) 1;xx(3) (xx(1)*xx(2)+yy(1)*yy(2)) 1])./(2*tt)];
 
-[] abc
+[ abc ]
