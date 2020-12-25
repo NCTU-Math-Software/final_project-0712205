@@ -47,9 +47,9 @@ final_project-0712205 created by GitHub Classroom
 
 #### 參考資料
 
-https://ccjou.wordpress.com/2014/04/08/%E5%88%A9%E7%94%A8%E8%A1%8C%E5%88%97%E5%BC%8F%E6%8E%A8%E5%B0%8E%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E5%9B%9B%E5%BF%83%E5%BA%A7%E6%A8%99%E5%85%AC%E5%BC%8F/
+1.https://ccjou.wordpress.com/2014/04/08/%E5%88%A9%E7%94%A8%E8%A1%8C%E5%88%97%E5%BC%8F%E6%8E%A8%E5%B0%8E%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E5%9B%9B%E5%BF%83%E5%BA%A7%E6%A8%99%E5%85%AC%E5%BC%8F/
 
-http://mirlab.org/jang/books/matlabProgramming4beginner/03-3_axisControl.asp?title=3-3%20%B9%CF%B6b%AA%BA%B1%B1%A8%EE
+2.http://mirlab.org/jang/books/matlabProgramming4beginner/03-3_axisControl.asp?title=3-3%20%B9%CF%B6b%AA%BA%B1%B1%A8%EE
 
-https://www.itread01.com/content/1541977585.html
+3.https://www.itread01.com/content/1541977585.html
 
