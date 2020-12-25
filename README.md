@@ -1,4 +1,4 @@
-# roject5：任意給定平面上三點, 判斷原點是否在這三點所圍成的三角形內，並畫出三角形的四心、內切圓、外接圓
+# Project5：任意給定平面上三點, 判斷原點是否在這三點所圍成的三角形內，並畫出三角形的四心、內切圓、外接圓
 final_project-0712205 created by GitHub Classroom
 
 ### input
