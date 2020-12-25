@@ -15,7 +15,7 @@ final_project-0712205 created by GitHub Classroom
 
 ### 作法
 
-在[-10 10]×[-10 10]的螢幕上逆時鐘給定三點：A、B、C
+在[-10 10]×[-10 10]的坐標軸上逆時鐘給定三點：A、B、C
      
     [xx,yy,BUTTON] = ginput(3)
     
