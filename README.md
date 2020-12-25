@@ -11,7 +11,7 @@ final_project-0712205 created by GitHub Classroom
 
 ### output
 
-    三角形ABC的內切圓、外接圓，並標出三角形四心的位置
+    三角形ABC、ABC的內切圓、外接圓，並標出三角形四心的位置
     
 ### 執行方法
 
