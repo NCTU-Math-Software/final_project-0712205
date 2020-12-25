@@ -21,7 +21,7 @@ final_project-0712205 created by GitHub Classroom
     
     A=[xx(1) yy(1)]、B=[xx(2) yy(2)]、C=[xx(3) yy(3)]
 
-先用向量算出三角形ABC的面積，若OAB+OBC+OCA的面積相加等於ABC的面積，則原點O會在ABC內
+先用向量算出三角形ABC的面積，若OAB+OBC+OCA的面積相加等於ABC的面積，則原點O會在ABC內 (誤差+-10^(-5))
 
     ABC面積=1/2*abs(det([xx(2)-xx(1) yy(2)-yy(1); xx(3)-xx(1) yy(3)-yy(1)]));
     
