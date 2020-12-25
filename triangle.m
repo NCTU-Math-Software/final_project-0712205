@@ -28,30 +28,32 @@ end
  ca=norm(C-A);
  %內心座標
  int=[(bc.*xx(1)+ca.*xx(2)+ab.*xx(3))./(bc+ca+ab) (bc.*yy(1)+ca.*yy(2)+ab.*yy(3))./(bc+ca+ab)];
- %內心半徑
+ %內切圓半徑
  oi=2*tt./(ab+bc+ca);
  %外心座標
  oo=[(xx(1)^2+yy(1)^2) yy(1) 1;(xx(2)^2+yy(2)^2) yy(2) 1;(xx(3)^2+yy(3)^2) yy(3) 1];
  ii=[xx(1) (xx(1)^2+yy(1)^2) 1;xx(2) (xx(2)^2+yy(2)^2) 1;xx(3) (xx(3)^2+yy(3)^2) 1];
  cir=[det(oo)./(4*tt) det(ii)./(4*tt)];
+ %外接圓半徑
  oj=(ab*bc*ca)./(4*tt);
  %畫出內切圓
  alpha=0:pi/1000:2*pi;
  x=oi*cos(alpha)+int(1);
  y=oi*sin(alpha)+int(2);
- plot(int(1),int(2),'g+',x,y); 
+ plot(int(1),int(2),'g*',x,y); 
  text(int(1),int(2),'內心','color','g', 'HorizontalAlignment', 'right'); 
  %畫出外接圓
  x1=oj*cos(alpha)+cir(1);
  y1=oj*sin(alpha)+cir(2);
- plot(cir(1),cir(2),'b+',x1,y1);
+ plot(cir(1),cir(2),'b*',x1,y1);
  text(cir(1),cir(2),'外心','color','b', 'HorizontalAlignment', 'right');
  %重心座標
  gra=[(xx(1)+xx(2)+xx(3))./3 (yy(1)+yy(2)+yy(3))./3];
+ plot(gra(1),gra(2),'m*',x,y);
  text(gra(1),gra(2),'重心','color','m', 'HorizontalAlignment', 'right');
  %垂心座標
- h1=[(((xx(2))*(xx(3)))+((yy(2))*(yy(3)))) yy(1) 1;(((xx(3))*(xx(1)))+((yy(3))*(yy(1)))) yy(2) 1;(((xx(1))*(xx(2)))+((yy(1))*(yy(2)))) yy(3) 1];
- h2=[xx(1) (((xx(2))*(xx(3)))+((yy(2))*(yy(3)))) 1;xx(2) (((xx(3))*(xx(1)))+((yy(3))*(yy(1)))) 1;xx(3) (((xx(1))*(xx(2)))+((yy(1))*(yy(2)))) 1];
+ h1=[(xx(2)*xx(3)+yy(2)*yy(3)) yy(1) 1;(xx(3)*xx(1)+yy(3)*yy(1)) yy(2) 1;(xx(1)*xx(2)+yy(1)*yy(2)) yy(3) 1];
+ h2=[xx(1) (xx(2)*xx(3)+yy(2)*yy(3)) 1;xx(2) (xx(3)*xx(1)+yy(3)*yy(1)) 1;xx(3) (xx(1)*xx(2)+yy(1)*yy(2)) 1];
  dow=[-det(h1)./(2*tt) -det(h2)./(2*tt)];
+ plot(dow(1),dow(2),'k*',x,y);
  text(dow(1),dow(2),'垂心','color','k', 'HorizontalAlignment', 'right');
- 
